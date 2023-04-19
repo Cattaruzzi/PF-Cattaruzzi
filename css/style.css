@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+/*selector universa*/
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*selectores de etiqueta*/
+.texto-destacado{
+    color: rgb(104,187,236);
+}
+.texto-center{
+    text-align: center;
+}
+.texto-right{
+    text-align: right;
+}
+p{
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 10px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 40px;
+}
+.body{
+    background-image: url(../background/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*selectores descendentes*/
+.nav{
+    background-color: rgba(242,118,171,.7);
+    font-size: 26px;
+    width: 100%;
+    padding: 6px 30px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;  
+}
+    .nav img{
+        width: 50px;
+    }
+    .nav ul{
+        list-style: none;
+        display: flex;
+        justify-content:end;
+    }
+        .nav ul  li a{
+            color: rgb(253,197,48);
+            text-decoration: none;
+            font-weight: 300;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .nav ul li a:hover{
+                text-decoration: underline;
+        }
+
+/*selector de grupo*/
+h1, h2, h3{
+    color: rgb(242,118,171);
+    font-weight: 400;
+    margin: 10px;
+}
+
+header img{
+    width: 100%;
+}
+
+
+.contenedor{
+    background-color: rgba(242,118,171,.3);
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    padding: 50px 30px;
+}
+
+footer {
+    display: flex;
+    padding: 20px  10px;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+    footer  svg{
+        width: 30px;
+        margin-right: 10px;
+    }
+    footer a{
+        text-decoration: none;
+    }
+
+    footer img{
+        height: 50px;
+        margin: 15px;  
+    }
+
+
