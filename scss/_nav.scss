@@ -1,0 +1,37 @@
+.nav{
+    background-color: rgba(242,118,171,.9);
+    font-size: 26px;
+    width: 100%;
+    padding: 6px 30px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    img{
+        width: 50px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content:end;
+    }
+    li{
+        a{
+            color: $secondaryColor;
+            background-image: linear-gradient(currentColor,currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+            text-decoration: none;
+            font-weight: 300;
+            display: inline-block;
+            margin-right: $margin;
+            &:hover{
+                background-size: 100% 2px;
+        }
+        }
+    }
+}
+
+

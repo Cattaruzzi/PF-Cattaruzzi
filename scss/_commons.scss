@@ -1,0 +1,86 @@
+.texto-destacado{
+    color: $keyColor;
+}
+.texto-center{
+    text-align: center;
+}
+.texto-right{
+    text-align: right;
+}
+p{
+    color: $mainColor;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 25px;
+    margin: $margin;
+}
+h1{
+    @include titulos (3em, 400, $mainColor, $margin);
+}
+h2{
+    @include titulos (2.5em, 400, $mainColor, $margin);
+}
+h3{
+    @include titulos (2em, 400, $mainColor, $margin);
+}
+.body{
+    background-image: url(../Img/background/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+head{
+    img{ 
+        width: 100%;
+    }
+}
+
+header{
+    img{ 
+        width: 100%;
+    }
+}
+.contenedor{
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 30px;
+    list-style-type: none;
+}
+.contenedor-resaltado{
+    background-color: $secondaryColor;
+    width: 50%;
+    margin: auto; 
+    padding: 10px 30px;
+    list-style-type: none;
+}
+
+
+*{
+    font-family: $mainFont;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table{
+    width: 80%
+}
+
+
+.subrayado{
+    text-decoration: underline;
+    font-style: italic;
+    color: red;
+    font-size: 15px;
+}
+
+.p-izquierda{
+    float: left;
+}
+
+.p-derecha{
+    float: right;
+}
+
+

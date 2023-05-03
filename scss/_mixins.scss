@@ -1,0 +1,29 @@
+
+.contenedor{
+    background-color: $backgroundColor;
+    width: 95%;
+}
+
+.contenedor-centro{
+    @extend .contenedor;
+    float: center;
+    width: 50%;
+}
+
+
+.contenedor-redondo{
+    @extend .contenedor;
+    border-radius: 25px;
+}
+
+
+@mixin titulos ($size, $weight, $color, $margin){
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    margin: $margin
+}
+
+
+
+

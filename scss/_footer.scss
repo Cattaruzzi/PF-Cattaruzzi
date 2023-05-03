@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    padding: 20px  10px;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(119,198,135, 0.3);
+    svg{
+        width: 30px;
+        margin-right: $margin;
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        height: 50px;
+        margin: 15px; 
+    }
+}
+
