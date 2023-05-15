@@ -20,6 +20,9 @@ Se ingnoraron los archivos que no eran necesarios para que la página funcione c
 
 Se diseñó una página de error y se le colocó el redireccionamiento al botón "Enviar" del formulario de contacto para poder visualizarla
 
+Con FileZilla se subieron los todos los archivos al hosting Infinityfree, en donde se generó el siguiente dominio: 
+http://solidaridad-activa.rf.gd/
+
 Gracias por visitar la página. Cualquier sugerencia me contactan!
 
 
