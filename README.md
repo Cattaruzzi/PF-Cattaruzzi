@@ -1,4 +1,4 @@
-Hola!!
+Hola!!👋👋
 
 Se realiaza
 # PreEntrega2-Cattaruzzi
@@ -8,7 +8,7 @@ Se realiza
 # PF-Cattaruzzi
 
 A lo largo del curso se fueron explicando conceptos claves para armar nuestras propia página web.
-Esos conceptos fueron llevados a la práctiva y varios están aplicados en esta entrega.
+Esos conceptos fueron llevados a la práctiva y varios están aplicados en esta entrega.👨‍💻
 
 La página web fue diseñada como una página institucional y se le sumaron algunas funcionalidades, para que los usuarios también puedan conocer las demás redes en la que Solidaridad Activa está presente y para que se puedan contactar en caso de requeridad más información, a través del formulario de contacto (dicho formulario todavía no cuenta con la funcionalidad esperada).
 
@@ -23,7 +23,7 @@ Se diseñó una página de error y se le colocó el redireccionamiento al botón
 Con FileZilla se subieron los todos los archivos al hosting Infinityfree, en donde se generó el siguiente dominio: 
 http://solidaridad-activa.rf.gd/
 
-Gracias por visitar la página. Cualquier sugerencia me contactan!
+Gracias por visitar la página. Cualquier sugerencia me contactan!🎉
 
 
 
